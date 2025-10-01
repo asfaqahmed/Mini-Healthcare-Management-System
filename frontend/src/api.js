@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000";
+const API_URL = "http://16.171.173.160:8000";
 
 export const getNotes = async () => {
   const res = await fetch(`${API_URL}/notes`);
