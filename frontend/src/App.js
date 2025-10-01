@@ -25,6 +25,7 @@ function App() {
   return (
     <div style={{ padding: "2rem" }}>
       <h1>Notes App</h1>
+      <p>Manage your notes easily.</p>
       <input placeholder="Title" value={title} onChange={e => setTitle(e.target.value)} />
       <input placeholder="Content" value={content} onChange={e => setContent(e.target.value)} />
       <button onClick={handleAdd}>Add</button>
